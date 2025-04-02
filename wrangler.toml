@@ -1,0 +1,14 @@
+name = "microapi-example"
+main = "main.py"
+compatibility_flags = ["python_workers"]
+compatibility_date = "2024-03-29"
+kv_namespaces = [
+  { binding = "SOME_KV_STORE", id = "<id>" },
+]
+
+[triggers]
+crons = [ "*/3 * * * *" ]
+
+[observability]
+enabled = true
+head_sampling_rate = 1
