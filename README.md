@@ -1,2 +1,3 @@
-# miniapi-example
-Example using miniapi framework
+# microapi-example
+
+Example using [microapi](https://github.com/Deltachaos/microapi) framework

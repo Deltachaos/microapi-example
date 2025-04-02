@@ -1,0 +1,3 @@
+[submodule "microapi"]
+	path = microapi
+	url = https://github.com/Deltachaos/microapi
